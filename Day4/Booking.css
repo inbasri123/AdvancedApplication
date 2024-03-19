@@ -1,0 +1,82 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #080808;
+    border-radius: 5px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .booking-form {
+    margin-top: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    cursor: pointer;
+  }
+  
+  .selected {
+    font-weight: bold;
+  }
+  
+  select, input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 5px;
+  }
+  
+  .guest-details {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .selected-cabin-details {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    background-color: #f0f8ff; /* Light blue */
+  }
+  
+  .selected-cabin-details h2 {
+    color: #007bff; /* Blue */
+  }
+  
+  .selected-cabin-details p {
+    margin-bottom: 10px;
+  }
+  
+  .continue-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .continue-button:hover {
+    background-color: #0056b3;
+  }
+  .continue-button a{
+    text-decoration: none;
+    color: #fff;
+  }
+  

@@ -1,0 +1,80 @@
+@layer base
+{
+    .back{
+        background-color: #9db6f7;
+        height: 100vh;
+        position: relative;
+        
+        
+    }
+}
+.card {
+    background-color: rgb(194, 212, 225);
+    height: 360px;
+    border-radius: 40px;
+}
+.slider{
+
+    margin-left: 30px;
+    margin-right: 50px;
+}
+
+.card-header {
+    
+    height: 200px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: #8583b1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-header img {
+    height: 150px;
+    width: 200px;
+  
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    padding:16px;
+}
+
+.card-name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card-price {
+    font-size: 16px;
+    padding: 10px;
+}
+
+.book-button {
+    background-color: #4F46E5;
+    color: white;
+    font-size: 18px;
+    padding: 7px 12px;
+    border-radius: 20px;
+}
+.book-button a{
+    text-decoration: none;
+    color: white;
+
+}
+.slick-slide > div {
+    margin: 100px 50px;
+}
+.slick-dots li button:before {
+    color: black /* Change to your desired color */
+}
+
+/* Update the color of the active dot */
+.slick-dots li.slick-active button:before {
+    color: #0a4cf3; /* Change to your desired color */
+}
