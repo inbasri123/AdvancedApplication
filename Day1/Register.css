@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:100,300,400');
+
+html{
+  height: 100%;
+}
+
+.body1{
+  background: url("../images/s4.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+#signup{
+  position:fixed;
+  left: 30%;
+}
+
+#signup h1{
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 100;
+  font-size: 60px;
+  margin-bottom:0.5em;
+}
+
+#signup label{
+  display:block;
+  margin-bottom:5px;
+  color: #090a09d6;
+  padding: 5px;
+  font-size: 25px;
+}
+
+#signup input{
+  font-size: 25px;
+  background-color: transparent;
+  color: white;
+  border-radius:0.5em;
+  padding-left: 0.5em;
+  margin-bottom: 1em;
+  border: 2px solid rgb(14, 16, 18);
+  
+}
+
+#signup input:focus{
+  outline: none;
+  box-shadow: #EEE 0 0 5px;
+  
+}
+
+#signup input[type="submit"]{
+  padding: 10px;
+  font-size: 20px;
+  color: black;
+  background-color: #EEE;
+
+}
+
+#signup input::placeholder{
+  color: rgba(89, 145, 161, 0.9);;
+
+}
+
+.disable2
+{
+  font-size: 20px;
+  color: black;
+  background-color: #EEE;
+  padding: 10px;
+  border-radius:10px;
+}
