@@ -1,0 +1,118 @@
+/* Edit.css */
+
+/* Container styles */
+.cabin-editing-container-custom {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 15px;
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: -650px;
+  margin-bottom: 20px;
+}
+
+/* Date container styles */
+.date-container {
+  margin-bottom: 15px;
+}
+
+/* Date title styles */
+.date-title {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+/* Cabin custom styles */
+.cabin-custom {
+  margin-bottom: 8px;
+  padding: 8px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Cabin title styles */
+.cabin-title {
+  font-size: 16px;
+}
+
+/* Add cabin form styles */
+.add-cabin-form {
+  display: flex;
+  margin-top: 8px;
+}
+
+.add-cabin-form input[type="text"] {
+  flex: 1;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 8px;
+}
+
+.add-cabin-form button {
+  padding: 6px 12px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-cabin-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Delete date button styles */
+.del_but{
+  padding: 6px 12px;
+  background-color: #9fc8e1;
+  color: #0e0c0c;
+  border: none;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.del_but:hover {
+  background-color: #c82333;
+}
+.del_cabin{
+  padding: 6px 12px;
+  background-color: rgb(147, 123, 127);
+  color: #050505;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.del_cabin:hover {
+  background-color: pink;
+}
+
+
+/* Add date form styles */
+.add-date-form {
+  margin-top: 15px;
+}
+
+.add-date-form input[type="text"] {
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 8px;
+}
+
+.add-date-form button {
+  padding: 6px 12px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-date-form button:hover {
+  background-color: #218838;
+}
